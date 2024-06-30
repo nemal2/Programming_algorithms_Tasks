@@ -106,7 +106,7 @@ class Node:
             return
 
         temp = self.getNode(index)
-        print(temp.data)
+        #print(temp.data)
         if temp:
             if temp == self.head:
                 self.head = temp.getNext()
